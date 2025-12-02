@@ -62,9 +62,9 @@ let update = "date not present"
    
 
      <div className=' flex justify-center items-center gap-20 my-5'>
-      <button onClick={()=>{ if(index>1){setindex(index-1)}}} className='bg-amber-500 text-black active:scale-95 w-20 text-center'>Previous</button>
+      <button onClick={()=>{ if(index>1){setindex(index-1)}}} className='bg-amber-400 text-black active:scale-95 w-20 text-center'>Previous</button>
       <h2>{index}</h2>
-      <button onClick={()=>{setindex(index+1)}} className='bg-amber-500 active:scale-95 text-black w-20 text-center'>Next</button>
+      <button onClick={()=>{setindex(index+1)}} className='bg-amber-400 active:scale-95 text-black w-20 text-center'>Next</button>
      </div>
      
        </div>
